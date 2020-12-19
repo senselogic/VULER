@@ -1,4 +1,4 @@
-![](https://github.com/senselogic/VULER/blob/master/LOGO/vuler.png)
+![](https://github.com/senselogic/VULER/blob/main/LOGO/vuler.png)
 
 # Vuler
 
