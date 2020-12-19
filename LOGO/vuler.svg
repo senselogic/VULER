@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   xml:space="preserve"
+   width="2560.519"
+   height="2278.3364"
+   viewBox="0 0 2560.5192 2278.3362"
+   sodipodi:docname="vuler.svg"
+   inkscape:export-filename="/home/eric/data/WORK/PROJECT/TOOL/VULER/LOGO/vuler.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="enable-background:new"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><linearGradient
+       inkscape:collect="always"
+       id="linearGradient847"><stop
+         style="stop-color:#ff8400;stop-opacity:1"
+         offset="0"
+         id="stop843" /><stop
+         style="stop-color:#ff55c6;stop-opacity:1"
+         offset="1"
+         id="stop845" /></linearGradient><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient847"
+       id="linearGradient849"
+       x1="2.3999983e-05"
+       y1="510"
+       x2="510.00006"
+       y2="9.9999988e-07"
+       gradientUnits="userSpaceOnUse" /><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient847"
+       id="linearGradient851"
+       gradientUnits="userSpaceOnUse"
+       x1="2.3999983e-05"
+       y1="510"
+       x2="510.00006"
+       y2="9.9999988e-07" /><linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient847"
+       id="linearGradient853"
+       gradientUnits="userSpaceOnUse"
+       x1="2.3999983e-05"
+       y1="510"
+       x2="510.00006"
+       y2="9.9999988e-07" /></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2095"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.62933332"
+     inkscape:cx="1397.4208"
+     inkscape:cy="957.19561"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="100"
+     fit-margin-left="100"
+     fit-margin-right="100"
+     fit-margin-bottom="100"
+     showguides="false"><inkscape:grid
+       type="xygrid"
+       id="grid3748"
+       spacingx="15.000001"
+       spacingy="30"
+       originx="529.48258"
+       originy="390.06211" /></sodipodi:namedview><g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="title"
+     style="display:inline"
+     transform="translate(-20.076218,333.7495)"><text
+   transform="scale(0.94703571,1.0559264)"
+   style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.97494888px;line-height:0%;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;display:inline;fill:#006fbe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.8312459"
+   id="text24"
+   x="105.65168"
+   y="1746.8898"><tspan
+     x="105.65168"
+     sodipodi:role="line"
+     id="tspan28"
+     y="1746.8898"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:603.99908447px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill:#006fbe;fill-opacity:1;stroke-width:2.8312459">VULER</tspan></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<g
+   id="g18"
+   transform="matrix(2.8598468,0,0,2.8598468,568.21494,-233.7495)"
+   style="fill:url(#linearGradient849);fill-opacity:1"><path
+     id="path14"
+     d="M 497,337 H 175 V 15 C 175,6.716 168.284,0 160,0 H 15 C 6.716,0 0,6.716 0,15 v 482 c 0,8.284 6.716,15 15,15 h 482 c 8.284,0 15,-6.716 15,-15 V 352 c 0,-8.284 -6.716,-15 -15,-15 z M 30,30 h 115 v 43 h -33 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 33 v 34 h -17 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 17 v 34 h -33 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 33 v 34 h -17 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 17 v 42 H 30 Z m 0,337 H 145 V 482 H 30 Z M 482,482 H 175 V 367 h 42 v 33 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -33 h 34 v 17 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -17 h 34 v 33 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -33 h 34 v 17 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -17 h 43 z"
+     inkscape:connector-curvature="0"
+     style="fill:url(#linearGradient851);fill-opacity:1" /><path
+     id="path16"
+     d="m 102.71,421.07 c -1.87,-8.926 -10.711,-13.914 -19.07,-11.42 -8.616,2.808 -12.195,11.286 -9.99,18.71 2.843,8.695 11.36,12.182 18.71,9.99 7.919,-2.582 11.71,-10.014 10.35,-17.28 z"
+     inkscape:connector-curvature="0"
+     style="fill:url(#linearGradient853);fill-opacity:1" /></g><flowRoot
+   xml:space="preserve"
+   id="flowRoot30"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+   transform="translate(759.2645,77.899337)"><flowRegion
+     id="flowRegion32"><rect
+       id="rect34"
+       width="1545.0001"
+       height="960"
+       x="-59.705799"
+       y="126.62534" /></flowRegion><flowPara
+     id="flowPara36"></flowPara></flowRoot></g></svg>

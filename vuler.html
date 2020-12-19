@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vuler</title>
+        <style>
+            body
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            .content
+            {
+                padding: 2rem;
+                max-width: 50rem;
+            }
+
+            th
+            {
+                text-align: left;
+            }
+
+            td
+            {
+                padding-left: 1rem;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>
+                    Viewport width :
+                </th>
+                <td id="viewport-rem-width">
+                </td>
+                <td id="viewport-pixel-width">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Viewport height :
+                </th>
+                <td id="viewport-rem-height">
+                </td>
+                <td id="viewport-pixel-height">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Screen width :
+                </th>
+                <td id="screen-rem-width">
+                </td>
+                <td id="screen-pixel-width">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Screen height :
+                </th>
+                <td id="screen-rem-height">
+                </td>
+                <td id="screen-pixel-height">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Pixel ratio :
+                </th>
+                <td>
+                </td>
+                <td id="pixel-ratio">
+                </td>
+            </tr>
+        </table>
+        <script>
+            // -- FUNCTIONS
+
+            function GetRemValue(
+                pixel_value
+                )
+            {
+                return Math.floor( pixel_value * 10 / 16 ) / 10;
+            }
+
+            function UpdateContent(
+                )
+            {
+                var
+                    pixel_ratio,
+                    screen_pixel_height,
+                    screen_pixel_width,
+                    screen_rem_height,
+                    screen_rem_width,
+                    viewport_pixel_height,
+                    viewport_pixel_width,
+                    viewport_rem_height,
+                    viewport_rem_width;
+
+                viewport_rem_width = GetRemValue( window.innerWidth );
+                viewport_pixel_width = window.innerWidth;
+
+                viewport_rem_height = GetRemValue( window.innerHeight );
+                viewport_pixel_height = window.innerHeight;
+
+                screen_rem_width = GetRemValue( window.screen.width );
+                screen_pixel_width = window.screen.width;
+
+                screen_rem_height = GetRemValue( window.screen.height );
+                screen_pixel_height = window.screen.height;
+
+                pixel_ratio = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth;
+
+                document.getElementById( "viewport-rem-width" ).textContent = viewport_rem_width + " rem";
+                document.getElementById( "viewport-pixel-width" ).textContent = viewport_pixel_width + " px";
+
+                document.getElementById( "viewport-rem-height" ).textContent = viewport_rem_height + " rem";
+                document.getElementById( "viewport-pixel-height" ).textContent = viewport_pixel_height + " px";
+
+                document.getElementById( "screen-rem-width" ).textContent = screen_rem_width + " rem";
+                document.getElementById( "screen-pixel-width" ).textContent = screen_pixel_width + " px";
+
+                document.getElementById( "screen-rem-height" ).textContent = screen_rem_height + " rem";
+                document.getElementById( "screen-pixel-height" ).textContent = screen_pixel_height + " px";
+
+                document.getElementById( "pixel-ratio" ).textContent = pixel_ratio;
+            }
+
+            // -- STATEMENTS
+
+            UpdateContent();
+
+            window.addEventListener( "resize", UpdateContent );
+        </script>
+    </body>
+</html>
