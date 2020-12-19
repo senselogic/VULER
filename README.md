@@ -2,7 +2,7 @@
 
 # Vuler
 
-Viewport metrics.
+Browser viewport metrics.
 
 ## Version
 
