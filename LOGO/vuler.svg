@@ -15,8 +15,8 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    xml:space="preserve"
    width="2560.519"
-   height="2278.3364"
-   viewBox="0 0 2560.5192 2278.3362"
+   height="2650.6079"
+   viewBox="0 0 2560.5192 2650.6077"
    sodipodi:docname="vuler.svg"
    inkscape:export-filename="/home/eric/data/WORK/PROJECT/TOOL/VULER/LOGO/vuler.png"
    inkscape:export-xdpi="90"
@@ -70,9 +70,9 @@
      inkscape:window-height="2095"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.62933332"
-     inkscape:cx="1397.4208"
-     inkscape:cy="957.19561"
+     inkscape:zoom="0.44500586"
+     inkscape:cx="2463.753"
+     inkscape:cy="1332.3799"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -81,18 +81,19 @@
      fit-margin-left="100"
      fit-margin-right="100"
      fit-margin-bottom="100"
-     showguides="false"><inkscape:grid
+     showguides="true"
+     inkscape:guide-bbox="true"><inkscape:grid
        type="xygrid"
        id="grid3748"
        spacingx="15.000001"
        spacingy="30"
-       originx="529.48258"
-       originy="390.06211" /></sodipodi:namedview><g
+       originx="529.48267"
+       originy="390.06207" /></sodipodi:namedview><g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="title"
      style="display:inline"
-     transform="translate(-20.076218,333.7495)"><text
+     transform="translate(-20.076218,706.02089)"><text
    transform="scale(0.94703571,1.0559264)"
    style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.97494888px;line-height:0%;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;display:inline;fill:#006fbe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.8312459"
    id="text24"
@@ -118,9 +119,10 @@
 
 
 
+
 <g
    id="g18"
-   transform="matrix(2.8598468,0,0,2.8598468,568.21494,-233.7495)"
+   transform="matrix(3.5640318,0,0,3.5640318,387.94355,-606.02089)"
    style="fill:url(#linearGradient849);fill-opacity:1"><path
      id="path14"
      d="M 497,337 H 175 V 15 C 175,6.716 168.284,0 160,0 H 15 C 6.716,0 0,6.716 0,15 v 482 c 0,8.284 6.716,15 15,15 h 482 c 8.284,0 15,-6.716 15,-15 V 352 c 0,-8.284 -6.716,-15 -15,-15 z M 30,30 h 115 v 43 h -33 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 33 v 34 h -17 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 17 v 34 h -33 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 33 v 34 h -17 c -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 h 17 v 42 H 30 Z m 0,337 H 145 V 482 H 30 Z M 482,482 H 175 V 367 h 42 v 33 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -33 h 34 v 17 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -17 h 34 v 33 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -33 h 34 v 17 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 v -17 h 43 z"
@@ -140,4 +142,4 @@
        height="960"
        x="-59.705799"
        y="126.62534" /></flowRegion><flowPara
-     id="flowPara36"></flowPara></flowRoot></g></svg>
+     id="flowPara36" /></flowRoot></g></svg>
