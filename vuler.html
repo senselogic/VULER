@@ -21,6 +21,7 @@
             th
             {
                 text-align: left;
+                color: blue;
             }
 
             td
@@ -116,19 +117,19 @@
 
                 pixel_ratio = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth;
 
-                document.getElementById( "viewport-rem-width" ).textContent = viewport_rem_width + " rem";
-                document.getElementById( "viewport-pixel-width" ).textContent = viewport_pixel_width + " px";
+                document.getElementById( "viewport-rem-width" ).innerHTML = "<b>" + viewport_rem_width + "</b> rem";
+                document.getElementById( "viewport-pixel-width" ).innerHTML = "<b>" + viewport_pixel_width + "</b> px";
 
-                document.getElementById( "viewport-rem-height" ).textContent = viewport_rem_height + " rem";
-                document.getElementById( "viewport-pixel-height" ).textContent = viewport_pixel_height + " px";
+                document.getElementById( "viewport-rem-height" ).innerHTML = "<b>" + viewport_rem_height + "</b> rem";
+                document.getElementById( "viewport-pixel-height" ).innerHTML = "<b>" + viewport_pixel_height + "</b> px";
 
-                document.getElementById( "screen-rem-width" ).textContent = screen_rem_width + " rem";
-                document.getElementById( "screen-pixel-width" ).textContent = screen_pixel_width + " px";
+                document.getElementById( "screen-rem-width" ).innerHTML = "<b>" + screen_rem_width + "</b> rem";
+                document.getElementById( "screen-pixel-width" ).innerHTML = "<b>" + screen_pixel_width + "</b> px";
 
-                document.getElementById( "screen-rem-height" ).textContent = screen_rem_height + " rem";
-                document.getElementById( "screen-pixel-height" ).textContent = screen_pixel_height + " px";
+                document.getElementById( "screen-rem-height" ).innerHTML = "<b>" + screen_rem_height + "</b> rem";
+                document.getElementById( "screen-pixel-height" ).innerHTML = "<b>" + screen_pixel_height + "</b> px";
 
-                document.getElementById( "pixel-ratio" ).textContent = pixel_ratio;
+                document.getElementById( "pixel-ratio" ).innerHTML = "<b>" + pixel_ratio + "</b>";
             }
 
             // -- STATEMENTS
