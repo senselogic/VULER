@@ -55,6 +55,15 @@
             </tr>
             <tr>
                 <th>
+                    Viewport ratio :
+                </th>
+                <td>
+                </td>
+                <td id="viewport-ratio">
+                </td>
+            </tr>
+            <tr>
+                <th>
                     Screen width :
                 </th>
                 <td id="screen-rem-width">
@@ -102,6 +111,7 @@
                     screen_rem_width,
                     viewport_pixel_height,
                     viewport_pixel_width,
+                    viewport_ratio,
                     viewport_rem_height,
                     viewport_rem_width;
 
@@ -110,6 +120,8 @@
 
                 viewport_rem_height = GetRemValue( window.innerHeight );
                 viewport_pixel_height = window.innerHeight;
+                
+                viewport_ratio = viewport_pixel_width / viewport_pixel_height;
 
                 screen_rem_width = GetRemValue( window.screen.width );
                 screen_pixel_width = window.screen.width;
@@ -124,6 +136,8 @@
 
                 document.getElementById( "viewport-rem-height" ).innerHTML = "<b>" + viewport_rem_height + "</b> rem";
                 document.getElementById( "viewport-pixel-height" ).innerHTML = "<b>" + viewport_pixel_height + "</b> px";
+                
+                document.getElementById( "viewport-ratio" ).innerHTML = "<b>" + viewport_ratio.toFixed( 6 ) + "</b>";
 
                 document.getElementById( "screen-rem-width" ).innerHTML = "<b>" + screen_rem_width + "</b> rem";
                 document.getElementById( "screen-pixel-width" ).innerHTML = "<b>" + screen_pixel_width + "</b> px";
